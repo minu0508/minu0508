@@ -19,4 +19,4 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 
 ## SNS
-[![Instagram Badge](https://img.shields.io/badge/instagram-e4405f?style-flat-square&logo=Instagram&logoColor=white)](https://instagram.com/Minw_ss)
+[![Instagram Badge](https://img.shields.io/badge/instagram-e4405f?style-flat-square&logo=Instagram&logoColor=white)](https://instagram.com/rnin_oo)
