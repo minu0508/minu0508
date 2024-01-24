@@ -1,14 +1,12 @@
 # SON MIN WOO
-<div align="center">
+<div align="left">
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Freissue%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=minu0508&theme=dark&show_icons=true)<br>
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=smw508)](https://solved.ac/smw508/)
 
 
-
-## SKILL (Studying)
+## LANGUAGES (Studying)
 ![Java](https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white)
@@ -18,10 +16,15 @@
 ![Flask](https://img.shields.io/badge/Flask-000000.svg?&style=for-the-badge&logo=Flask&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB.svg?&style=for-the-badge&logo=React&logoColor=white)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minu0508&langs_count=8)
+
 ## TOOL
 ![Eclipse IDE](https://img.shields.io/badge/Eclipse%20IDE-2C2255.svg?&style=for-the-badge&logo=Eclipse%20IDE&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?&style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000.svg?&style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white)
+
+## ALGORITHM
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=smw508)](https://solved.ac/smw508/)
 
 ## SNS
 [![Instagram Badge](https://img.shields.io/badge/instagram-e4405f?style-flat-square&logo=Instagram&logoColor=white)](https://instagram.com/rnin_oo)
