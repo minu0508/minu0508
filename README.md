@@ -25,6 +25,6 @@
   
   ## ✨ ALGORITHM & TECH STACK✨
   [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=smw508)](https://solved.ac/smw508/)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minu0508&layout=compact)
+  ![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=minu0508&layout=compact)
 
 </div>
