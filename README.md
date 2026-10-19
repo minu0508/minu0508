@@ -2,11 +2,6 @@
 
 <img src="assets/terminal.svg" width="100%" alt="SON MIN WOO · AI Engineer | Software Developer · since 2023.07"/>
 
-<br/>
-
-<a href="https://solved.ac/smw508/"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=smw508" alt="solved.ac tier"/></a>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=minu0508&color=30363D&style=flat-square&label=Profile+Views" alt="profile views"/>
 
 </div>
 
@@ -148,6 +143,7 @@ I build AI services end to end: the model, the API around it, and the screen peo
 <a href="https://github.com/minu0508"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="mailto:devsormoo@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
 <a href="https://instagram.com/mxxnw_s"><img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=E4405F"/></a>
+<a href="https://solved.ac/smw508/"><img src="https://img.shields.io/badge/solved.ac-0D1117?style=for-the-badge" alt="solved.ac"/></a>
 
 <img src="assets/wave.svg" width="100%" alt=""/>
 
