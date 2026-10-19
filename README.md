@@ -10,26 +10,20 @@
 &nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=minu0508&color=39D353&style=flat-square&label=Profile+Views" align="middle" alt="profile views"/>
 
+
+<br/>
+
+<img src="https://img.shields.io/badge/English-39D353?style=for-the-badge" alt="English (current)"/>
+<a href="https://github.com/minu0508/minu0508/blob/main/README.ko.md"><img src="https://img.shields.io/badge/%ED%95%9C%EA%B5%AD%EC%96%B4-0D1117?style=for-the-badge" alt="한국어로 보기"/></a>
+
 </div>
 
 <br/>
 
-```python
-class MinWoo:
-    role    = ["AI Engineer", "Software Developer"]
-    since   = "2023.07"
-    years   = "3+"  # updated by GitHub Actions
-    focus   = ["LLM Application", "RAG", "Agent System",
-               "Time-series ML", "Computer Vision", "Full-stack"]
-    stack   = ["Python", "TypeScript", "NestJS", "React", "Flutter", "Docker"]
-    motto   = "Slow is fine. Quitting isn't. Keep growing."
-```
 
 ### <img src="assets/prompt.svg" height="22"/> About
 
 I build AI services end to end: the model, the API around it, and the screen people use. I have been shipping software since July 2023, and most of my work sits where AI meets real business systems.
-
-모델부터 API, 화면까지 AI 서비스를 끝까지 만드는 개발자입니다. 2023년 7월부터 개발을 시작했고, AI를 실제 업무 시스템에 녹여 내는 일을 주로 합니다.
 
 <br/>
 
@@ -101,35 +95,6 @@ I build AI services end to end: the model, the API around it, and the screen peo
 
 <br/>
 
-### <img src="assets/prompt.svg" height="22"/> How I Build
-
-- **Agents as teammates.** Claude Code and Codex work as a pair: one plans and implements, the other reviews the plan and the diff.
-- **Design factory.** A 10-stage agent pipeline that turns one sentence into a brief, an ERD with executable DDL, screen flows, an API spec, UI components and a scaffolded repo. Each stage is planned, reviewed, run and verified.
-- **LLM Wiki.** A personal knowledge base in Obsidian that an LLM maintains: 100+ linked pages on AI tooling, with claims checked against primary sources.
-- **Second brain for code.** Coding sessions are collected into the vault, summarized and indexed with gbrain, so past decisions, and who made them, stay searchable.
-
-<details>
-<summary><b>See the design factory pipeline</b></summary>
-<br/>
-
-```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "transparent", "primaryColor": "#161B22", "primaryTextColor": "#C9D1D9", "primaryBorderColor": "#39D353", "lineColor": "#39D353", "clusterBkg": "transparent", "clusterBorder": "#30363D", "titleColor": "#8B949E", "fontFamily": "monospace", "fontSize": "15px"}}}%%
-flowchart TB
-    subgraph design ["design"]
-        direction LR
-        A([One-line idea]) --> B[Brief] --> C[Interview] --> D[ERD + DDL]
-    end
-    subgraph build ["build"]
-        direction LR
-        E[Screen flows] --> F[API spec] --> G[UI] --> H{Verify} --> I[(Repo)]
-    end
-    design --> build
-```
-
-<sub>Every stage runs plan → review → execute → verify before the next one starts.</sub>
-
-</details>
-
 <br/>
 
 ### <img src="assets/prompt.svg" height="22"/> Stack
@@ -137,31 +102,31 @@ flowchart TB
 <table>
   <tr>
     <td width="130"><b>AI / ML</b></td>
-    <td><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark" height="40" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV"/></td>
+    <td><img src="assets/stack/ai-ml.svg" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV"/></td>
   </tr>
   <tr>
     <td width="130"><b>LLM</b></td>
-    <td><img src="assets/icons/langchain.svg" height="40" alt="LangChain"/> <img src="assets/icons/ollama.svg" height="40" alt="Ollama"/> <img src="assets/icons/huggingface.svg" height="40" alt="Hugging Face"/> <img src="assets/icons/openai.svg" height="40" alt="OpenAI"/> <img src="assets/icons/anthropic.svg" height="40" alt="Anthropic"/> <img src="assets/icons/claude.svg" height="40" alt="Claude Code"/></td>
+    <td><img src="assets/stack/llm.svg" alt="LangChain, Ollama, Hugging Face, OpenAI, Anthropic, Claude Code"/></td>
   </tr>
   <tr>
     <td width="130"><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=nestjs,nodejs,fastapi,flask,django,java,spring&theme=dark" height="40" alt="NestJS, Node.js, FastAPI, Flask, Django, Java, Spring Boot"/></td>
+    <td><img src="assets/stack/backend.svg" alt="NestJS, Node.js, FastAPI, Flask, Django, Java, Spring Boot"/></td>
   </tr>
   <tr>
     <td width="130"><b>Database</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark" height="40" alt="PostgreSQL, MySQL, Redis"/></td>
+    <td><img src="assets/stack/database.svg" alt="PostgreSQL, MySQL, Redis"/></td>
   </tr>
   <tr>
     <td width="130"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,js&theme=dark" height="40" alt="TypeScript, React, Next.js, Vite, JavaScript"/></td>
+    <td><img src="assets/stack/frontend.svg" alt="TypeScript, React, Next.js, Vite, JavaScript"/></td>
   </tr>
   <tr>
     <td width="130"><b>Mobile</b></td>
-    <td><img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark" height="40" alt="Flutter, Dart"/></td>
+    <td><img src="assets/stack/mobile.svg" alt="Flutter, Dart"/></td>
   </tr>
   <tr>
     <td width="130"><b>Infra / Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=aws,docker,nginx,linux,git,githubactions,obsidian,vscode&theme=dark" height="40" alt="AWS, Docker, Nginx, Linux, Git, GitHub Actions, Obsidian, VS Code"/></td>
+    <td><img src="assets/stack/infra.svg" alt="AWS, Docker, Nginx, Linux, Git, GitHub Actions, Obsidian, VS Code"/></td>
   </tr>
 </table>
 
