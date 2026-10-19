@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-label="footer wave">
+<defs>
+  <linearGradient id="waveGrad" x1="0" x2="1" y1="0" y2="0">
+    <stop offset="0" stop-color="#2EA043"/><stop offset="0.5" stop-color="#39D353"/><stop offset="1" stop-color="#26A641"/>
+  </linearGradient>
+</defs>
+<style>
+  .w0 { animation: drift0 14s linear infinite; }
+  @keyframes drift0 { from { transform: translateX(0); } to { transform: translateX(-900px); } }
+  .w1 { animation: drift1 10s linear infinite; }
+  @keyframes drift1 { from { transform: translateX(0); } to { transform: translateX(-900px); } }
+  .w2 { animation: drift2 7s linear infinite; }
+  @keyframes drift2 { from { transform: translateX(0); } to { transform: translateX(-900px); } }
+  @media (prefers-reduced-motion: reduce) { g { animation: none; } }
+</style>
+<g class="w0"><path d="M0 78 C157.5 68 292.5 68 450.0 78 C607.5 88 742.5 88 900.0 78 C1057.5 68 1192.5 68 1350.0 78 C1507.5 88 1642.5 88 1800.0 78 V120 H0 Z" fill="url(#waveGrad)" opacity="0.22"/></g>
+<g class="w1"><path d="M0 86 C105.0 74 195.0 74 300.0 86 C405.0 98 495.0 98 600.0 86 C705.0 74 795.0 74 900.0 86 C1005.0 98 1095.0 98 1200.0 86 C1305.0 74 1395.0 74 1500.0 86 C1605.0 98 1695.0 98 1800.0 86 V120 H0 Z" fill="url(#waveGrad)" opacity="0.4"/></g>
+<g class="w2"><path d="M0 96 C157.5 87 292.5 87 450.0 96 C607.5 105 742.5 105 900.0 96 C1057.5 87 1192.5 87 1350.0 96 C1507.5 105 1642.5 105 1800.0 96 V120 H0 Z" fill="url(#waveGrad)" opacity="0.95"/></g>
+</svg>
