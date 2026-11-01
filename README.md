@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg" width="100%" alt="SON MIN WOO · AI Engineer | Software Developer · since 2023.07"/>
+<img src="assets/terminal.svg" width="100%" alt="SON MIN WOO · AI Engineer | Full-stack Developer · since 2023.07"/>
 
 
 </div>
@@ -9,7 +9,9 @@
 
 ### <img src="assets/prompt.svg" height="22"/> About
 
-I build AI services end to end: the model, the API around it, and the screen people use. I have been shipping software since July 2023, and most of my work sits where AI meets real business systems.
+I build AI services end to end: I train the model, write the API around it, build the screen people use, and run it on the server. I have been shipping software since July 2023, and most of my work sits where AI meets real business systems.
+
+I have trained models myself across vision, text and music, built full-stack products from the database to the mobile app, and set up and run the Linux servers they live on. I also treat AI as a working tool, not just a feature: coding agents, review loops and automated tests are part of how I ship.
 
 <br/>
 
@@ -35,6 +37,29 @@ I build AI services end to end: the model, the API around it, and the screen peo
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <h4>Computer Vision</h4>
+      <img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark" height="40" alt="PyTorch, OpenCV"/>
+      <br/><sub>YOLO · timm</sub>
+      <ul>
+        <li>Trained YOLO detectors myself, from dataset preparation to training and evaluation</li>
+        <li>Object detection and instance segmentation for recognizing and counting items in photos</li>
+        <li>Image recognition models served behind REST APIs for web and mobile clients</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Generative Models</h4>
+      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" height="40" alt="TensorFlow, PyTorch"/>
+      <img src="assets/icons/huggingface.svg" height="40" alt="Hugging Face"/>
+      <br/><sub>Magenta · KoGPT2 · Transformers</sub>
+      <ul>
+        <li>Melody generation with Magenta, trained myself on MIDI data</li>
+        <li>Korean text generation by fine-tuning KoGPT2 in my own training runs</li>
+        <li>From data preparation to sampling: what goes into training shapes what comes out</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h4>Machine Learning</h4>
       <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn&theme=dark" height="40" alt="Python, TensorFlow, scikit-learn"/>
       <br/><sub>Keras · XGBoost · pandas · Flask</sub>
@@ -45,35 +70,49 @@ I build AI services end to end: the model, the API around it, and the screen peo
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>Computer Vision</h4>
-      <img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark" height="40" alt="PyTorch, OpenCV"/>
-      <br/><sub>YOLO · timm</sub>
+      <h4>Linux &amp; Servers</h4>
+      <img src="https://skillicons.dev/icons?i=linux,bash,docker,nginx&theme=dark" height="40" alt="Linux, Bash, Docker, Nginx"/>
+      <br/><sub>Docker Compose · GPU model serving · SSH</sub>
       <ul>
-        <li>Object detection and instance segmentation for recognizing and counting items in photos</li>
-        <li>Image recognition models served behind REST APIs for web and mobile clients</li>
+        <li>Setting up and running Linux servers for web, API and AI services</li>
+        <li>Docker Compose deployments behind Nginx, with the database, API and model server side by side</li>
+        <li>Serving local LLMs on GPU servers, kept inside the company network</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4>Full-stack Web &amp; App</h4>
-      <img src="https://skillicons.dev/icons?i=nestjs,ts,react,flutter,docker,nginx&theme=dark" height="40" alt="NestJS, TypeScript, React, Flutter, Docker, Nginx"/>
-      <br/><sub>TypeORM · Vite · PostgreSQL · MySQL · Redis</sub>
+      <img src="https://skillicons.dev/icons?i=nestjs,ts,js,react,spring,flutter&theme=dark" height="40" alt="NestJS, TypeScript, JavaScript, React, Spring, Flutter"/>
+      <br/><sub>TypeORM · Vite · Thymeleaf · React Native · PostgreSQL · MySQL · Oracle · Redis</sub>
       <ul>
         <li>REST APIs with NestJS and TypeORM: auth, roles and permissions, organization trees, file handling, licensing</li>
-        <li>Admin consoles and service web in React and TypeScript</li>
-        <li>Cross-platform mobile apps in Flutter</li>
-        <li>Docker deployment behind Nginx, on PostgreSQL, MySQL and Redis</li>
+        <li>Admin consoles and service web in React and TypeScript, and server-rendered pages with Spring Boot and Thymeleaf</li>
+        <li>Cross-platform mobile apps in Flutter and React Native</li>
+        <li>Relational databases from PostgreSQL and MySQL to Oracle</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h4>Quality &amp; Security</h4>
-      <img src="https://skillicons.dev/icons?i=jest,githubactions,linux&theme=dark" height="40" alt="Jest, GitHub Actions, Linux"/>
+      <img src="https://skillicons.dev/icons?i=jest,githubactions&theme=dark" height="40" alt="Jest, GitHub Actions"/>
       <br/><sub>Playwright · pytest · Mutation testing</sub>
       <ul>
         <li>End-to-end test rounds on the real UI with Playwright, split into functional, security and UX passes</li>
         <li>Mutation testing to prove tests can fail, and an evidence file behind every verdict</li>
         <li>Security designed in from the start: access control, secret handling, keeping data in-house</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h4>AI-Native Development</h4>
+      <img src="assets/icons/claude.svg" height="40" alt="Claude Code"/>
+      <img src="https://skillicons.dev/icons?i=obsidian,vscode&theme=dark" height="40" alt="Obsidian, VS Code"/>
+      <br/><sub>Claude Code · Codex · Custom skills &amp; hooks · Subagents</sub>
+      <ul>
+        <li>Coding agents in daily work, with custom skills, hooks and subagents fitted to my own workflow</li>
+        <li>A second AI as reviewer: one model writes, another reviews, and tests decide</li>
+        <li>A personal knowledge base in Obsidian that keeps decisions and lessons across sessions and projects</li>
       </ul>
     </td>
   </tr>
@@ -85,6 +124,10 @@ I build AI services end to end: the model, the API around it, and the screen peo
 
 <table>
   <tr>
+    <td width="130"><b>Languages</b></td>
+    <td><img src="assets/stack/languages.svg" alt="Python, TypeScript, JavaScript, Java, Dart, C"/></td>
+  </tr>
+  <tr>
     <td width="130"><b>AI / ML</b></td>
     <td><img src="assets/stack/ai-ml.svg" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV"/></td>
   </tr>
@@ -94,11 +137,11 @@ I build AI services end to end: the model, the API around it, and the screen peo
   </tr>
   <tr>
     <td width="130"><b>Backend</b></td>
-    <td><img src="assets/stack/backend.svg" alt="NestJS, Node.js, FastAPI, Flask, Django, Java, Spring Boot"/></td>
+    <td><img src="assets/stack/backend.svg" alt="NestJS, Node.js, FastAPI, Flask, Django, Java, Spring Boot, Thymeleaf"/></td>
   </tr>
   <tr>
     <td width="130"><b>Database</b></td>
-    <td><img src="assets/stack/database.svg" alt="PostgreSQL, MySQL, Redis"/></td>
+    <td><img src="assets/stack/database.svg" alt="PostgreSQL, MySQL, Oracle, Redis"/></td>
   </tr>
   <tr>
     <td width="130"><b>Frontend</b></td>
@@ -106,7 +149,7 @@ I build AI services end to end: the model, the API around it, and the screen peo
   </tr>
   <tr>
     <td width="130"><b>Mobile</b></td>
-    <td><img src="assets/stack/mobile.svg" alt="Flutter, Dart"/></td>
+    <td><img src="assets/stack/mobile.svg" alt="Flutter, Dart, React Native"/></td>
   </tr>
   <tr>
     <td width="130"><b>Infra / Tools</b></td>
